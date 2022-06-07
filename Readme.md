@@ -7,6 +7,7 @@ Further, in every fourth execution of your shell script, consider the text files
 Current timestamp process name process id total memory consumed in last three minutes.
 After the fourth execution, keep over-writing the process data into the files already created.
 
+>> Hot to run
 
 extract to /home/av-pc/
 >you will get two folder
