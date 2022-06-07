@@ -1,4 +1,4 @@
-#Shell Scripting
+# Shell Scripting
 
 
 This assignment involves scheduling a shell script to run periodically every minute. You can achieve this in the Unix/Linux system using the Cron job/Crontab.
@@ -10,9 +10,10 @@ After the fourth execution, keep over-writing the process data into the files al
 
 extract to /home/av-pc/
 >you will get two folder
+
 >>location
 
-# * * * * * /bin/bash /home/av-pc/location/ScriptJob.sh
+> * * * * * /bin/bash /home/av-pc/location/ScriptJob.sh
 
 It contains cronjob that calculates log entry by taking max of memory utilised at 3 instants
 #to add job 
@@ -21,7 +22,7 @@ It contains cronjob that calculates log entry by taking max of memory utilised a
 
 >>location1
 
-# * * * * * /bin/bash /home/av-pc/location1/Job.sh
+> * * * * * /bin/bash /home/av-pc/location1/Job.sh
 
 It contains cronjob that calculates log entry by taking summation of memory utilised at 3 instants of each process
 #to add job 
