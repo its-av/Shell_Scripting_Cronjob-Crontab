@@ -11,6 +11,9 @@ After the fourth execution, keep over-writing the process data into the files al
 extract to /home/av-pc/
 >you will get two folder
 
+
+
+
 >>location
 
 # * * * * * /bin/bash /home/av-pc/location/ScriptJob.sh
@@ -19,6 +22,9 @@ It contains cronjob that calculates log entry by taking max of memory utilised a
 #to add job 
 >open terminal from this location
 >type "bash AddJob.sh"
+
+
+
 
 >>location1
 
