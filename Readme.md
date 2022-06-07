@@ -13,7 +13,7 @@ extract to /home/av-pc/
 
 >>location
 
-> * * * * * /bin/bash /home/av-pc/location/ScriptJob.sh
+* * * * * /bin/bash /home/av-pc/location/ScriptJob.sh
 
 It contains cronjob that calculates log entry by taking max of memory utilised at 3 instants
 #to add job 
@@ -22,7 +22,7 @@ It contains cronjob that calculates log entry by taking max of memory utilised a
 
 >>location1
 
-> * * * * * /bin/bash /home/av-pc/location1/Job.sh
+* * * * * /bin/bash /home/av-pc/location1/Job.sh
 
 It contains cronjob that calculates log entry by taking summation of memory utilised at 3 instants of each process
 #to add job 
